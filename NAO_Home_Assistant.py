@@ -126,7 +126,7 @@ def security():
     else:
         time_minute = time_minute + 1
         
-    pwk.sendwhatmsg("+60134665640","Alert! Someone else is in your house!", time_hour, time_minute, tab_close = True)
+    pwk.sendwhatmsg("","Alert! Someone else is in your house!", time_hour, time_minute, tab_close = True)
 
 def christmas():
     scp.get(remote_path = remotepath + "christmas.txt")
